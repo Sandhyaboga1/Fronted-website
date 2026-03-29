@@ -1,0 +1,179 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+
+
+.login{
+    text-align: center;
+    background-image: url("https://res.cloudinary.com/diaut5dvo/image/upload/v1774713161/top-view-collection-beauty-products-with-copy-space_uumhrx.jpg");
+    height:100vh;
+    background-size:cover ;
+
+}
+.details{
+    text-align: center;
+    background-image: url("https://res.cloudinary.com/diaut5dvo/image/upload/v1774718988/flat-lay-different-beauty-products-arrangement-with-copy-space_23-2148574440_fe9qfq.avif");
+    height:100vh;
+    background-size: cover;
+    
+}
+
+.logo{
+    width:80px;
+    height:90px;
+}
+.heading-1{
+    text-align: center;
+}
+.product-container{
+    display: flex;
+    gap:20px;
+    padding:10px;
+    
+
+}
+.product-card{
+    display: flex;
+    gap:2px;
+    padding:5px;
+    text-align: center;
+   
+}
+.product-card:hover{
+    transform: translateY(-5px);
+}
+.product-imgs {
+    height:350px;
+    width:250px;
+    
+}
+.product{
+    width:100%;
+    object-fit: cover;
+}
+
+.color-option{
+    display: flex;
+    flex-direction: row;
+    margin: 4px 0;
+    flex-wrap: nowrap;
+    gap:4px;
+}
+.color-circle{
+    width:14px;
+    height:14px;
+    border-radius: 50%;
+    border:1px solid #ccc;
+    cursor:pointer;
+    
+}
+.rating{
+    margin-top:6px;
+    font-size:10px;
+    color:#000;
+    gap:3px;
+    display: flex;
+    flex-direction: row;
+}
+.btn{
+ margin: 4px;
+ padding: 3px;
+ border-radius: 2px solid rgb(246,250,45);
+}
+.product-img{
+    height:240px;
+    width:100;
+    object-fit: contain;
+}
+.product-img:hover{
+    transform: translateY(-5px);
+}
+.video{
+    background-color: red;
+    background-image: linear-gradient(to right,#3dfc03,yellow);
+    padding:30px;
+    width:auto;
+    height:auto;
+    overflow:auto;
+    border: 2px solid black;
+    margin-right: 10px;
+
+}
+.video-content{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:200px;
+    font-size: 20px;
+    overflow: hidden;
+    margin-top: 50px;
+    
+}
+.videoflex-content{
+    display:flex;
+    flex-wrap: wrap;
+    gap:10px;
+}
+.video1{
+    background-color:pink;
+    background-image: linear-gradient(to right,#e50af5,yellow);
+    width:auto;
+    height:auto;
+    overflow:auto;
+    border: 2px solid black;
+    padding:30px;
+    margin-right: 10px;
+}
+
+.blog{
+    width:70px;
+    height:90px;
+    text-align: center;
+}
+
+.footer{
+    margin-top: 15px;
+
+    margin-right: 2px;
+}
+
+.footer-color{
+    background-color:#000;
+    color:#fff;
+
+
+}
+.footer-content ul{
+    list-style: none;
+    padding-top: 15px;
+}
+.footer-content ul li{
+    display:flex;
+    align-items: center;
+    margin-left: 5px;
+    gap:8px;
+}
+.footer-content a{
+    color:#ffffff79;
+    font-size: 16px;
+    font-family:jost,sans-serif;
+    letter-spacing: 2px;
+}
+.footer-social i{
+    font-size: 20px;
+}
+.footer-text{
+    text-align: center;
+    margin-top:30px;
+    font-size: 16px;
+    color:#ffffff79;
+
+}
+.footer-textt{
+    text-align: center;
+    margin-top:30px;
+    font-size: 16px;
+    color:#ffffff;
+
+}
