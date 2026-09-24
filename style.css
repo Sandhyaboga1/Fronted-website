@@ -22,8 +22,8 @@
 }
 
 .logo{
-    width:80px;
-    height:90px;
+    width:250px;
+    height:120px;
 }
 .heading-1{
     text-align: center;
@@ -126,6 +126,16 @@
     margin-right: 10px;
 }
 
+.founder{
+    background-color:pink;
+    background-image: linear-gradient(to right,#7b5cea,rgb(242, 241, 245));
+    width:auto;
+    height:auto;
+    overflow:auto;
+    border: 2px solid black;
+    padding:30px;
+    margin-right: 10px;
+}
 .blog{
     width:70px;
     height:90px;
@@ -134,7 +144,7 @@
 
 .footer{
     margin-top: 15px;
-
+    text-align: center;
     margin-right: 2px;
 }
 
